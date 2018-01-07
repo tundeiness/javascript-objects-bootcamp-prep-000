@@ -1,14 +1,14 @@
 
-var playlist = new Object({
+var playList = new Object({
   Bonjovi: 'oatmeal'
   });
   
-  function updatePlaylist(playlist, artisteName, songTitle){
+  function updatePlayList(playlist, artisteName, songTitle){
     return Object.assign({}, playList,{[artisteName]: songTitle});
   
   }
   
-  function removeFromPlaylist(playList, artisteName){
+  function removeFromPlayList(playList, artisteName){
         delete playList.artisteName;
         return playList;
   }
