@@ -1,5 +1,5 @@
 
-var playList = new Object({
+var playlist = new Object({
   Bonjovi: 'oatmeal'
   });
   
