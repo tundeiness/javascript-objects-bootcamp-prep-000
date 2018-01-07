@@ -3,7 +3,7 @@ var playList = new Object({
   Bonjovi: 'oatmeal'
   });
   
-  function updatePlayList(playlist, artisteName, songTitle){
+  function updatePlayList(playList, artisteName, songTitle){
     return Object.assign({}, playList,{[artisteName]: songTitle});
   
   }
