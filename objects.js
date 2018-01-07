@@ -8,7 +8,7 @@ var playlist = new Object({
   
   }
   
-  function removeFromPlayList(playList, artisteName){
-        delete playList.artisteName;
+  function removeFromPlaylist(playlist, artistName){
+        delete playList.artistName;
         return playList;
   }
